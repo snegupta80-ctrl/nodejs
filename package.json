@@ -1,0 +1,20 @@
+{
+  "name": "student_mangement",
+  "version": "1.0.0",
+  "description": "Node.js = JavaScript outside the browser.",
+  "homepage": "https://github.com/snegupta80-ctrl/nodejs#readme",
+  "bugs": {
+    "url": "https://github.com/snegupta80-ctrl/nodejs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snegupta80-ctrl/nodejs.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
