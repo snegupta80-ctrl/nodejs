@@ -16,12 +16,13 @@ const fs = require("fs");
 //     console.log("file written")
 // })
 
-
-fs.readFile("docs/file.txt", (err, data) => {
-    if (err) {
-        console.log(err, message);
-    }
-    else {
-        console.log(data.toString());
-    }
-})
+if (fs.existsSync("docs/file.txt")) {
+    fs.readFile("docs/file.txt", (err, data) => {
+        if (err) {
+            console.log(err, message);
+        }
+        else {
+            console.log(data.toString());
+        }
+    })
+}
